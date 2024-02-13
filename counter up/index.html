@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Counter up</title>
+      
+
+      <link rel="stylesheet" href="./style.css">
+
+      <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script>4 -->
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js" ></script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js" integrity="sha512-CVTKy2ABGi6IHJfP4ZBpk2/zhwgLjifRe6nGKfRSRY8OfRC9FT8hJqYUcrKJlHDFnsRoeJfqyLnqHgbgR/I+Bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+      
+      <div class="wrapper">
+            <div class="title">Responsive Counter Up Animation HTML CSS & JQuery</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odio ad eum pariatur voluptatibus, earum laudantium placeat quasi dolorem deserunt nihil tempore assumenda id dicta ex rem quas ipsum non distinctio doloribus perferendis qui quam? Consequuntur reprehenderit blanditiis unde amet saepe deserunt eaque at, alias ab. Nisi temporibus delectus, nobis placeat voluptatibus necessitatibus dolorum quidem doloremque vero! Quasi sit itaque nihil, quidem aperiam aliquid aliquam repudiandae dolores. Nesciunt accusantium velit debitis, consequatur pariatur accusamus non tempora totam ab? Iste eum facilis tenetur quod harum libero magnam magni molestiae vero tempora. Et perferendis dignissimos beatae repellendus veniam pariatur facilis placeat consequuntur nostrum, sequi quae ipsum consequatur impedit voluptas perspiciatis illum quia. Qui porro voluptates doloribus itaque eveniet, amet molestiae illum beatae praesentium commodi odio placeat. Corporis omnis velit possimus quia enim? Eius atque tempore quas? Consequuntur labore quod laboriosam ullam sequi voluptatem, earum amet, fuga quos tenetur delectus voluptatum sit architecto?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur id soluta velit amet, esse eveniet sunt facilis quas debitis modi corporis qui, vero placeat inventore ratione expedita distinctio labore neque. Placeat obcaecati adipisci animi nam omnis perspiciatis, labore fugiat nesciunt molestias vitae qui enim! Error nesciunt amet ducimus veritatis nisi, rem, voluptatem nemo optio nostrum totam soluta distinctio laborum nobis suscipit deserunt at? Recusandae, aliquid? Mollitia maiores iure culpa, magnam reiciendis est minus vel nostrum repudiandae nulla debitis, quam necessitatibus blanditiis magni optio ut dolore? Cumque omnis corrupti aspernatur earum itaque provident eius nam voluptatum qui, dolores quod corporis ratione ad officiis nisi obcaecati reiciendis illum odit iste deserunt sint odio. Adipisci nihil recusandae laudantium, culpa eos cum iure!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, quia, eligendi facilis expedita, voluptates fugit non eos facere nesciunt alias quaerat nostrum beatae error omnis harum aliquam minus ut. Consequatur, tempora ea molestiae quis repudiandae et sed quos expedita officia tempore nam aspernatur eum sapiente labore atque suscipit ad quo excepturi minus aperiam aliquam cupiditate reiciendis? Vero nostrum, impedit fugit esse ipsa mollitia maiores error et numquam. Officia, dignissimos dolor facilis suscipit, nesciunt non natus quae odio totam voluptate nisi impedit perspiciatis aperiam laudantium commodi ipsam blanditiis quisquam iusto, rerum ea eveniet asperiores nostrum illo? Eius praesentium officiis voluptatem.</p>
+      </div>
+
+      <div class="counter-up">
+            <div class="content">
+                  <div class="box">
+                        <div class="icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                        <div class="counter">724</div>
+                        <div class="text">working Hours</div>
+                  </div>
+
+                  <div class="box">
+                        <div class="icon"><i class="fa-solid fa-gift"></i></div>
+                        <div class="counter">724</div>
+                        <div class="text">working Hours</div>
+                  </div>
+
+                  <div class="box">
+                        <div class="icon"><i class="fa-solid fa-users"></i></div>
+                        <div class="counter">436</div>
+                        <div class="text">happy clients</div>
+                  </div>
+
+                  <div class="box">
+                        <div class="icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                        <div class="counter">120</div>
+                        <div class="text">awards received</div>
+                  </div>
+            </div>
+      </div>
+
+      <!-- <script src="./main.js"></script> -->
+
+      <script>
+            $(document).ready(function(){
+                  $(".counter").counterUp({
+                        delay:10,
+                        time: 1200
+                  });
+            });
+      </script>
+</body>
+</html>

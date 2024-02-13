@@ -1,0 +1,16 @@
+.container{
+      height: 600px;
+      width: 800px;
+      border: 1px solid black;
+}
+
+.inner-container{
+      height: 500px;
+      width: 700px;
+      border: 1px solid black;
+      margin: 50px;
+}
+.images img{
+      height: 500px;
+      width: 700px;
+}
