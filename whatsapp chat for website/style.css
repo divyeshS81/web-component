@@ -1,0 +1,7 @@
+.whatsapp-main{
+      position: fixed;
+      bottom: 40%;
+      right: 20px;
+      text-align: right;
+      z-index: 10;
+}
